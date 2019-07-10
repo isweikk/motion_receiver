@@ -15,7 +15,7 @@
 #include <pthread.h>
 
 #include "eos_type.h"
-#include "websocket_chat.h"
+#include "motion_receiver.h"
 #include "ut_usart.h"
 
 #ifdef __cplusplus

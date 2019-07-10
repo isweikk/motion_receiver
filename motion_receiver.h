@@ -1,6 +1,6 @@
 
-#ifndef __WEBSOCKET_CHAT_H__
-#define __WEBSOCKET_CHAT_H__
+#ifndef __MOTION_RECEIVER_H__
+#define __MOTION_RECEIVER_H__
 
 
 #ifdef __cplusplus

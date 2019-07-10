@@ -1,10 +1,9 @@
 SOURCES = $(PROG).c ./mongoose.c
-CFLAGS = -g -W -Wall -I./ -I/opt/allwinner/toolchain/include -I./mc -Wno-unused-function $(CFLAGS_EXTRA) $(MODULE_CFLAGS)
+CFLAGS = -g -W -Wall -I./ -I./mc -Wno-unused-function $(CFLAGS_EXTRA) $(MODULE_CFLAGS)
 
 all: $(PROG)
 
-#CC = gcc
-CC = arm-openwrt-linux-muslgnueabi-gcc
+CC = gcc
 
 SOURCES += mc/motion_motor_ctrl.c \
            mc/ut_usart.c
