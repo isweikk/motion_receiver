@@ -13,6 +13,7 @@ Linux
  - the bind port is 8000 default.
 
 > make
+
 > ./motion_receiver
 
     send command from the websocket client.
